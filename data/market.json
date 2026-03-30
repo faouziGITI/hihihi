@@ -1,0 +1,2786 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Whey Protein Gold 2lb",
+      "category_id": 1,
+      "price": 49.99,
+      "description": "High-quality whey protein for muscle growth and recovery.",
+      "image": "/images/whey-gold.png",
+      "stock": 25
+    },
+    {
+      "id": 2,
+      "name": "Whey Protein Gold 5lb",
+      "category_id": 1,
+      "price": 89.99,
+      "description": "Premium whey formula with fast absorption.",
+      "image": "/images/whey-5lb.png",
+      "stock": 18
+    },
+    {
+      "id": 3,
+      "name": "Whey Isolate Pure",
+      "category_id": 2,
+      "price": 59.99,
+      "description": "Ultra-filtered isolate with low carbs and fat.",
+      "image": "/images/isolate-pure.png",
+      "stock": 30
+    },
+    {
+      "id": 4,
+      "name": "Hydro Isolate Pro",
+      "category_id": 2,
+      "price": 69.99,
+      "description": "Hydrolyzed isolate for rapid digestion.",
+      "image": "/images/hydro-isolate.png",
+      "stock": 15
+    },
+    {
+      "id": 5,
+      "name": "Mass Gainer Extreme",
+      "category_id": 3,
+      "price": 74.99,
+      "description": "High-calorie formula for serious bulking.",
+      "image": "/images/mass-extreme.png",
+      "stock": 12
+    },
+    {
+      "id": 6,
+      "name": "Lean Mass Builder",
+      "category_id": 3,
+      "price": 64.99,
+      "description": "Balanced mass gainer for lean muscle.",
+      "image": "/images/lean-mass.png",
+      "stock": 20
+    },
+    {
+      "id": 7,
+      "name": "Creatine Monohydrate 300g",
+      "category_id": 4,
+      "price": 24.99,
+      "description": "Pure micronized creatine for strength.",
+      "image": "/images/creatine.png",
+      "stock": 40
+    },
+    {
+      "id": 8,
+      "name": "Creatine HCL",
+      "category_id": 4,
+      "price": 29.99,
+      "description": "Highly soluble creatine for better absorption.",
+      "image": "/images/creatine-hcl.png",
+      "stock": 22
+    },
+    {
+      "id": 9,
+      "name": "BCAA 2:1:1",
+      "category_id": 5,
+      "price": 27.99,
+      "description": "Supports recovery and reduces fatigue.",
+      "image": "/images/bcaa.png",
+      "stock": 35
+    },
+    {
+      "id": 10,
+      "name": "EAA Complex",
+      "category_id": 5,
+      "price": 34.99,
+      "description": "Complete essential amino acids formula.",
+      "image": "/images/eaa.png",
+      "stock": 19
+    },
+
+    {
+      "id": 11,
+      "name": "Pre-Workout Blast",
+      "category_id": 6,
+      "price": 39.99,
+      "description": "Energy and focus before training.",
+      "image": "/images/preworkout.png",
+      "stock": 28
+    },
+    {
+      "id": 12,
+      "name": "Stim-Free Pre-Workout",
+      "category_id": 6,
+      "price": 36.99,
+      "description": "Pump formula without caffeine.",
+      "image": "/images/preworkout-stimfree.png",
+      "stock": 17
+    },
+    {
+      "id": 13,
+      "name": "Fat Burner ThermoX",
+      "category_id": 7,
+      "price": 44.99,
+      "description": "Thermogenic fat loss support.",
+      "image": "/images/fatburner.png",
+      "stock": 14
+    },
+    {
+      "id": 14,
+      "name": "L-Carnitine Liquid",
+      "category_id": 7,
+      "price": 31.99,
+      "description": "Supports metabolism and fat transport.",
+      "image": "/images/carnitine.png",
+      "stock": 26
+    },
+    {
+      "id": 15,
+      "name": "Omega 3 Fish Oil",
+      "category_id": 8,
+      "price": 19.99,
+      "description": "Heart and joint support supplement.",
+      "image": "/images/omega3.png",
+      "stock": 45
+    },
+    {
+      "id": 16,
+      "name": "Multivitamin Sport",
+      "category_id": 8,
+      "price": 21.99,
+      "description": "Daily vitamins for active individuals.",
+      "image": "/images/multivitamin.png",
+      "stock": 33
+    },
+    {
+      "id": 17,
+      "name": "ZMA Recovery",
+      "category_id": 8,
+      "price": 18.99,
+      "description": "Supports sleep and testosterone levels.",
+      "image": "/images/zma.png",
+      "stock": 20
+    },
+    {
+      "id": 18,
+      "name": "Casein Protein Night",
+      "category_id": 1,
+      "price": 54.99,
+      "description": "Slow-digesting protein for overnight recovery.",
+      "image": "/images/casein.png",
+      "stock": 16
+    },
+    {
+      "id": 19,
+      "name": "Vegan Protein Blend",
+      "category_id": 1,
+      "price": 52.99,
+      "description": "Plant-based protein for clean nutrition.",
+      "image": "/images/vegan-protein.png",
+      "stock": 23
+    },
+    {
+      "id": 20,
+      "name": "Collagen Peptides",
+      "category_id": 8,
+      "price": 29.99,
+      "description": "Supports skin, hair, and joints.",
+      "image": "/images/collagen.png",
+      "stock": 27
+    },
+
+    {
+      "id": 21,
+      "name": "Testosterone Booster",
+      "category_id": 9,
+      "price": 49.99,
+      "description": "Natural support for testosterone levels.",
+      "image": "/images/testo.png",
+      "stock": 11
+    },
+    {
+      "id": 22,
+      "name": "Nitric Oxide Booster",
+      "category_id": 9,
+      "price": 37.99,
+      "description": "Enhances pump and blood flow.",
+      "image": "/images/nitric.png",
+      "stock": 18
+    },
+    {
+      "id": 23,
+      "name": "Electrolyte Hydration Mix",
+      "category_id": 10,
+      "price": 22.99,
+      "description": "Replenishes minerals during workouts.",
+      "image": "/images/electrolyte.png",
+      "stock": 38
+    },
+    {
+      "id": 24,
+      "name": "Protein Bars Pack",
+      "category_id": 11,
+      "price": 24.99,
+      "description": "High-protein snack bars.",
+      "image": "/images/protein-bar.png",
+      "stock": 50
+    },
+    {
+      "id": 25,
+      "name": "Energy Gel Pack",
+      "category_id": 11,
+      "price": 19.99,
+      "description": "Quick energy for endurance athletes.",
+      "image": "/images/energy-gel.png",
+      "stock": 42
+    },
+
+    {
+      "id": 26,
+      "name": "Shaker Bottle Pro",
+      "category_id": 12,
+      "price": 9.99,
+      "description": "Leak-proof shaker bottle.",
+      "image": "/images/shaker.png",
+      "stock": 60
+    },
+    {
+      "id": 27,
+      "name": "Gym Gloves",
+      "category_id": 12,
+      "price": 14.99,
+      "description": "Improves grip and comfort.",
+      "image": "/images/gloves.png",
+      "stock": 32
+    },
+    {
+      "id": 28,
+      "name": "Lifting Straps",
+      "category_id": 12,
+      "price": 12.99,
+      "description": "Supports heavy lifts.",
+      "image": "/images/straps.png",
+      "stock": 29
+    },
+    {
+      "id": 29,
+      "name": "Resistance Bands Set",
+      "category_id": 12,
+      "price": 29.99,
+      "description": "Versatile training bands.",
+      "image": "/images/bands.png",
+      "stock": 21
+    },
+    {
+      "id": 30,
+      "name": "Gym Bag Pro",
+      "category_id": 12,
+      "price": 39.99,
+      "description": "Spacious and durable gym bag.",
+      "image": "/images/gymbag.png",
+      "stock": 14
+    },
+
+    {
+      "id": 31,
+      "name": "Carb Loader Formula",
+      "category_id": 3,
+      "price": 58.99,
+      "description": "Complex carbs for energy and bulk.",
+      "image": "/images/carb-loader.png",
+      "stock": 15
+    },
+    {
+      "id": 32,
+      "name": "Intra-Workout Fuel",
+      "category_id": 5,
+      "price": 33.99,
+      "description": "Supports endurance during training.",
+      "image": "/images/intra.png",
+      "stock": 20
+    },
+    {
+      "id": 33,
+      "name": "Glutamine Powder",
+      "category_id": 5,
+      "price": 25.99,
+      "description": "Muscle recovery support.",
+      "image": "/images/glutamine.png",
+      "stock": 31
+    },
+    {
+      "id": 34,
+      "name": "Joint Support Complex",
+      "category_id": 8,
+      "price": 26.99,
+      "description": "Promotes joint flexibility.",
+      "image": "/images/joint.png",
+      "stock": 18
+    },
+    {
+      "id": 35,
+      "name": "Immune Boost Formula",
+      "category_id": 8,
+      "price": 23.99,
+      "description": "Supports immune system health.",
+      "image": "/images/immune.png",
+      "stock": 27
+    },
+
+    {
+      "id": 36,
+      "name": "Protein Pancake Mix",
+      "category_id": 11,
+      "price": 18.99,
+      "description": "High-protein breakfast mix.",
+      "image": "/images/pancake.png",
+      "stock": 22
+    },
+    {
+      "id": 37,
+      "name": "Caffeine Tablets",
+      "category_id": 9,
+      "price": 14.99,
+      "description": "Quick energy boost.",
+      "image": "/images/caffeine.png",
+      "stock": 41
+    },
+    {
+      "id": 38,
+      "name": "Sleep Support Formula",
+      "category_id": 8,
+      "price": 21.99,
+      "description": "Improves sleep quality.",
+      "image": "/images/sleep.png",
+      "stock": 19
+    },
+    {
+      "id": 39,
+      "name": "Beef Protein Isolate",
+      "category_id": 1,
+      "price": 56.99,
+      "description": "Alternative protein source.",
+      "image": "/images/beef-protein.png",
+      "stock": 12
+    },
+    {
+      "id": 40,
+      "name": "Rice Protein Powder",
+      "category_id": 1,
+      "price": 47.99,
+      "description": "Hypoallergenic plant protein.",
+      "image": "/images/rice-protein.png",
+      "stock": 16
+    },
+
+    {
+      "id": 41,
+      "name": "Green Superfoods Blend",
+      "category_id": 8,
+      "price": 32.99,
+      "description": "Daily greens nutrition mix.",
+      "image": "/images/greens.png",
+      "stock": 24
+    },
+    {
+      "id": 42,
+      "name": "CLA Softgels",
+      "category_id": 7,
+      "price": 28.99,
+      "description": "Supports fat metabolism.",
+      "image": "/images/cla.png",
+      "stock": 20
+    },
+    {
+      "id": 43,
+      "name": "Protein Coffee Blend",
+      "category_id": 1,
+      "price": 34.99,
+      "description": "Protein + caffeine combo.",
+      "image": "/images/protein-coffee.png",
+      "stock": 17
+    },
+    {
+      "id": 44,
+      "name": "Hydration Tablets",
+      "category_id": 10,
+      "price": 15.99,
+      "description": "Electrolytes in tablet form.",
+      "image": "/images/hydration-tabs.png",
+      "stock": 36
+    },
+    {
+      "id": 45,
+      "name": "Peanut Butter Protein",
+      "category_id": 11,
+      "price": 16.99,
+      "description": "High-protein peanut spread.",
+      "image": "/images/pb-protein.png",
+      "stock": 25
+    },
+
+    {
+      "id": 46,
+      "name": "Beta Alanine Powder",
+      "category_id": 9,
+      "price": 23.99,
+      "description": "Reduces muscle fatigue.",
+      "image": "/images/beta-alanine.png",
+      "stock": 18
+    },
+    {
+      "id": 47,
+      "name": "Tribulus Extract",
+      "category_id": 9,
+      "price": 27.99,
+      "description": "Herbal performance support.",
+      "image": "/images/tribulus.png",
+      "stock": 13
+    },
+    {
+      "id": 48,
+      "name": "Protein Oats Mix",
+      "category_id": 11,
+      "price": 19.99,
+      "description": "Protein-enriched oats.",
+      "image": "/images/protein-oats.png",
+      "stock": 28
+    },
+    {
+      "id": 49,
+      "name": "Magnesium Complex",
+      "category_id": 8,
+      "price": 17.99,
+      "description": "Supports muscle relaxation.",
+      "image": "/images/magnesium.png",
+      "stock": 34
+    },
+    {
+      "id": 50,
+      "name": "Ultimate Bulk Stack",
+      "category_id": 3,
+      "price": 129.99,
+      "description": "Complete bulking supplement stack.",
+      "image": "/images/bulk-stack.png",
+      "stock": 10
+    }
+  ],
+
+  "categories": [
+    {
+      "id": 1,
+      "name": "Protein",
+      "slug": "protein",
+      "description": "High-quality protein supplements for muscle growth and recovery.",
+      "image": "/categories/protein.png"
+    },
+    {
+      "id": 2,
+      "name": "Isolate",
+      "slug": "isolate",
+      "description": "Ultra-pure whey isolate for lean muscle building.",
+      "image": "/categories/isolate.png"
+    },
+    {
+      "id": 3,
+      "name": "Mass Gainers",
+      "slug": "mass",
+      "description": "High-calorie formulas for serious bulking phases.",
+      "image": "/categories/mass.png"
+    },
+    {
+      "id": 4,
+      "name": "Creatine",
+      "slug": "creatine",
+      "description": "Strength and power enhancement supplements.",
+      "image": "/categories/creatine.png"
+    },
+    {
+      "id": 5,
+      "name": "Amino Acids",
+      "slug": "amino",
+      "description": "BCAA, EAA, and recovery support formulas.",
+      "image": "/categories/amino.png"
+    },
+    {
+      "id": 6,
+      "name": "Pre Workout",
+      "slug": "preworkout",
+      "description": "Energy and focus boosters before training.",
+      "image": "/categories/preworkout.png"
+    },
+    {
+      "id": 7,
+      "name": "Fat Burners",
+      "slug": "fatburner",
+      "description": "Thermogenic and metabolism support products.",
+      "image": "/categories/fatburner.png"
+    },
+    {
+      "id": 8,
+      "name": "Health & Wellness",
+      "slug": "health",
+      "description": "Vitamins, minerals, and daily health supplements.",
+      "image": "/categories/health.png"
+    },
+    {
+      "id": 9,
+      "name": "Performance",
+      "slug": "erformance",
+      "description": "Advanced performance and hormone support supplements.",
+      "image": "/categories/performance.png"
+    },
+    {
+      "id": 10,
+      "name": "Hydration",
+      "slug": "hydration",
+      "description": "Electrolytes and hydration solutions.",
+      "image": "/categories/hydration.png"
+    },
+    {
+      "id": 11,
+      "name": "Snacks",
+      "slug": "snacks",
+      "description": "High-protein snacks and healthy alternatives.",
+      "image": "/categories/snacks.png"
+    },
+    {
+      "id": 12,
+      "name": "Accessories",
+      "slug": "accessories",
+      "description": "Gym accessories and fitness gear.",
+      "image": "/categories/accessories.png"
+    }
+  ],
+
+  "product": [
+    {
+      "id": "1",
+      "name": "Ultra Whey Isolate 90",
+      "brand": "IronMax",
+      "category": "Protein",
+      "subCategory": "Whey Isolate",
+      "price": 64.99,
+      "stock": 150,
+      "rating": 4.8,
+      "reviewsCount": 412,
+
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+
+      "badges": ["High Protein", "Low Sugar", "Top Seller"],
+
+      "shortDescription": "Premium whey isolate delivering 27g protein per serving with ultra-low carbs.",
+
+      "highlights": [
+        "90% protein per serving",
+        "Supports muscle growth",
+        "Low fat & low sugar",
+        "Easy digestion",
+        "30 servings"
+      ],
+
+      "longDescription": {
+        "intro": "Ultra Whey Isolate 90 is designed for serious athletes looking for clean muscle gains without unnecessary calories.",
+        "sections": [
+          {
+            "title": "Muscle Recovery",
+            "content": "Provides fast-absorbing protein to repair and grow muscle tissue."
+          },
+          {
+            "title": "Lean Formula",
+            "content": "Contains minimal carbohydrates and fats, ideal for cutting phases."
+          }
+        ],
+        "conclusion": "Maximize your performance with every scoop."
+      },
+
+      "nutritionFacts": {
+        "servingSize": "30g",
+        "servingsPerContainer": 30,
+        "protein": "27g",
+        "carbs": "1g",
+        "fat": "0.5g",
+        "calories": 115
+      },
+
+      "ingredients": ["Whey Protein Isolate", "Natural Flavor", "Stevia"]
+    },
+
+    {
+      "id": "2",
+      "name": "Mass Builder Pro",
+      "brand": "Titan Nutrition",
+      "category": "Protein",
+      "subCategory": "Mass Gainer",
+      "price": 79.99,
+      "stock": 90,
+      "rating": 4.6,
+      "reviewsCount": 298,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["High Calories", "Muscle Gain"],
+      "shortDescription": "High-calorie mass gainer for extreme bulking.",
+      "highlights": [
+        "1250 calories per serving",
+        "50g protein",
+        "Added creatine",
+        "Carb blend for energy"
+      ],
+      "longDescription": {
+        "intro": "Mass Builder Pro is formulated for hard gainers who struggle to gain weight.",
+        "sections": [
+          {
+            "title": "Maximum Size",
+            "content": "High calorie formula supports rapid weight and muscle gain."
+          }
+        ],
+        "conclusion": "Fuel your growth."
+      },
+      "nutritionFacts": {
+        "servingSize": "300g",
+        "servingsPerContainer": 10,
+        "protein": "50g",
+        "carbs": "220g",
+        "fat": "12g",
+        "calories": 1250
+      },
+      "ingredients": ["Whey Concentrate", "Oat Flour", "Creatine Monohydrate"]
+    },
+
+    {
+      "id": "3",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "3",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "4",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "5",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "6",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "7",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "8",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "9",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "10",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "11",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "12",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "13",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "14",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "15",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "16",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "17",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "18",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "19",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "20",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "21",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "22",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "23",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "24",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "25",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "26",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "27",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "28",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "29",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 3.5,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "30",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 2,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "31",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "32",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "33",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "34",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "35",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "36",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "37",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "38",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "39",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "40",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "41",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "42",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "43",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "44",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "45",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "46",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "47",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "48",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "49",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    },
+    {
+      "id": "50",
+      "name": "BCAA Recovery X",
+      "brand": "FitCore",
+      "category": "Amino Acids",
+      "subCategory": "BCAA",
+      "price": 29.99,
+      "stock": 200,
+      "rating": 4.7,
+      "reviewsCount": 521,
+      "images": [
+        "@/public/isolate.webp",
+        "@/public/mass.webp",
+        "@/public/monohydrate.webp"
+      ],
+      "badges": ["Recovery", "Sugar Free"],
+      "shortDescription": "2:1:1 BCAA formula for faster recovery.",
+      "highlights": [
+        "Leucine 2:1:1 ratio",
+        "Zero sugar",
+        "Intra-workout support"
+      ],
+      "longDescription": {
+        "intro": "BCAA Recovery X reduces muscle soreness and improves endurance.",
+        "sections": [
+          {
+            "title": "Muscle Protection",
+            "content": "Prevents muscle breakdown during intense workouts."
+          }
+        ],
+        "conclusion": "Train harder, recover faster."
+      },
+      "nutritionFacts": {
+        "servingSize": "10g",
+        "servingsPerContainer": 40,
+        "protein": "0g",
+        "carbs": "0g",
+        "fat": "0g",
+        "calories": 0
+      },
+      "ingredients": ["L-Leucine", "L-Isoleucine", "L-Valine"]
+    }
+  ],
+  "goals": [
+    {
+      "id": 1,
+      "name": "Muscle Gain",
+      "slug": "muscle-gain",
+      "price": 149.99,
+      "categoryIds": [1],
+      "description": "The Muscle Gain goal is designed for individuals looking to increase lean muscle mass while maintaining optimal recovery and performance. This pack focuses on high-quality protein sources and mass-building support supplements.",
+      "highlights": [
+        "Supports muscle growth and recovery",
+        "High protein intake support",
+        "Optimized for post-workout nutrition",
+        "Ideal for bulking phases"
+      ],
+      "productIds": [1, 2, 5, 8]
+    },
+    {
+      "id": 2,
+      "name": "Weight Loss",
+      "slug": "weight-loss",
+      "price": 119.99,
+      "categoryIds": [2],
+      "description": "The Weight Loss goal is carefully structured to help reduce body fat while preserving lean muscle mass. It focuses on clean protein sources, metabolism support, and appetite control.",
+      "highlights": [
+        "Low calorie, high protein support",
+        "Helps preserve lean muscle",
+        "Supports fat metabolism",
+        "Perfect for cutting phases"
+      ],
+      "productIds": [3, 6, 9, 12]
+    },
+    {
+      "id": 3,
+      "name": "Strength & Performance",
+      "slug": "strength-performance",
+      "price": 159.99,
+      "categoryIds": [3],
+      "description": "The Strength & Performance goal is tailored for athletes aiming to improve power output, endurance, and recovery. This pack includes performance-enhancing supplements and recovery boosters.",
+      "highlights": [
+        "Boosts workout intensity",
+        "Improves strength output",
+        "Enhances recovery speed",
+        "Supports endurance training"
+      ],
+      "productIds": [4, 7, 10, 13]
+    },
+    {
+      "id": 4,
+      "name": "Lean Maintenance",
+      "slug": "lean-maintenance",
+      "price": 99.99,
+      "categoryIds": [1, 2],
+      "description": "The Lean Maintenance goal is built for those who want to maintain their physique year-round. Balanced protein intake and nutrient support ensure muscle preservation without excess calories.",
+      "highlights": [
+        "Balanced protein intake",
+        "Supports muscle preservation",
+        "Ideal for lifestyle fitness",
+        "Clean ingredient profile"
+      ],
+      "productIds": [2, 6, 11, 14]
+    },
+    {
+      "id": 5,
+      "name": "Mass Builder Pro",
+      "slug": "mass-builder-pro",
+      "price": 179.99,
+      "categoryIds": [1],
+      "description": "Mass Builder Pro is an advanced bulking solution combining high-calorie mass gainers with premium whey protein isolates. Designed for hard gainers who struggle to consume enough calories daily.",
+      "highlights": [
+        "High-calorie mass support",
+        "Premium whey protein blend",
+        "Designed for hard gainers",
+        "Accelerates muscle growth phase"
+      ],
+      "productIds": [1, 5, 8, 15]
+    }
+  ]
+}
