@@ -5,6 +5,7 @@ export type searchparam = {
   maxprice: string;
 };
 
+
 export type item = {
   id: number;
   name: string;
@@ -12,6 +13,7 @@ export type item = {
   price: number;
   quantity: number;
 };
+
 
 export type goal = {
   id: number;
@@ -24,6 +26,7 @@ export type goal = {
   productIds: number[];
 };
 
+
 export type Category = {
   id: number;
   name: string;
@@ -32,10 +35,12 @@ export type Category = {
   image: string;
 };
 
+
 export type Categories = Category[];
 
+
 export type product = {
-  _id: string;  // ✅ ADDED
+  _id: string;
   id: number;
   name: string;
   category_id: number;
@@ -44,6 +49,7 @@ export type product = {
   image: string;
   stock: number;
 };
+
 
 export type NutritionFacts = {
   servingSize: string;
@@ -54,10 +60,12 @@ export type NutritionFacts = {
   calories: number;
 };
 
+
 export type LongDescriptionSection = {
   title: string;
   content: string;
 };
+
 
 export type LongDescription = {
   intro: string;
@@ -65,8 +73,9 @@ export type LongDescription = {
   conclusion: string;
 };
 
+
 export type ProductById = {
-  _id: string;  // ✅ ADDED
+  _id: string;
   id: string;
   name: string;
   brand: string;
@@ -76,7 +85,7 @@ export type ProductById = {
   stock: number;
   rating: number;
   reviewsCount: number;
-  images: string[];
+  image: string;        // ✅ single image string (matches DB)
   badges: string[];
   shortDescription: string;
   highlights: string[];
@@ -84,5 +93,6 @@ export type ProductById = {
   nutritionFacts: NutritionFacts;
   ingredients: string[];
 };
+
 
 export type products = product[];

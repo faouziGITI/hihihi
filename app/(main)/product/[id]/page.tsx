@@ -15,24 +15,21 @@ export default async function productPage({
 }) {
   const { id } = await params;
 
-  const res = await fetch(`http://localhost:5000/api/products`, {
+  const res = await fetch(`http://localhost:5000/api/products/${id}`, {
     cache: "no-store",
   });
-  const products: ProductById[] = await res.json();
-
-  // ✅ Match by _id
-  const product: ProductById = products.find((e) => e._id === id)!;
+  const product: ProductById = await res.json();
 
   const item: item = {
     id: Number(product.id),
     name: product.name,
     price: product.price,
-    image: product.images[0],
+    image: product.image ?? "/isolate.webp", // ✅ single image
     quantity: 1,
   };
 
   const nutKeys = Object.keys(
-    product.nutritionFacts,
+    product.nutritionFacts ?? {}
   ) as (keyof NutritionFacts)[];
 
   const goals = JsonDumm.goals.filter((e) =>
@@ -43,21 +40,20 @@ export default async function productPage({
     <main className="mt-20 max-w-6xl mx-auto px-3 text-white flex flex-col gap-16">
       <section className="grid md:grid-cols-2 gap-10">
         <div className="flex gap-4">
+          {/* ✅ Single thumbnail */}
           <div className="flex flex-col gap-3">
-            {product.images.map((e, i) => (
-              <Image
-                key={i}
-                src={isolate}
-                alt={product.name}
-                width={90}
-                height={90}
-                className="rounded-lg border border-white/10 p-1 cursor-pointer hover:border-green-400 transition"
-              />
-            ))}
+            <Image
+              src={product.image ?? isolate}
+              alt={product.name}
+              width={90}
+              height={90}
+              className="rounded-lg border border-white/10 p-1 cursor-pointer hover:border-green-400 transition"
+            />
           </div>
 
+          {/* ✅ Main image */}
           <Image
-            src={isolate}
+            src={product.image ?? isolate}
             alt={product.name}
             width={420}
             height={420}
@@ -86,18 +82,18 @@ export default async function productPage({
             <div className="flex items-center gap-1">
               <span>{product.rating}</span>
 
-              {product.rating % 1 === 0 ? (
-                [...Array(product.rating)].map((_, i) => (
+              {product.rating && product.rating % 1 === 0 ? (
+                [...Array(Math.max(0, product.rating))].map((_, i) => (
                   <Star key={i} size={15} color="yellow" fill="yellow" />
                 ))
-              ) : (
+              ) : product.rating ? (
                 <>
-                  {[...Array(Math.floor(product.rating))].map((_, i) => (
+                  {[...Array(Math.max(0, Math.floor(product.rating)))].map((_, i) => (
                     <Star key={i} size={15} color="yellow" fill="yellow" />
                   ))}
                   <StarHalf size={15} color="yellow" fill="yellow" />
                 </>
-              )}
+              ) : null}
             </div>
           </div>
 
@@ -153,7 +149,7 @@ export default async function productPage({
           <h2 className="text-2xl font-semibold">Highlights</h2>
 
           <ul className="space-y-2">
-            {product.highlights.map((e, i) => (
+            {(product.highlights ?? []).map((e: string, i: number) => (
               <li key={i} className="flex items-center gap-2 text-white/80">
                 <CheckCircle2 size={18} className="text-green-400" />
                 {e}
@@ -164,9 +160,8 @@ export default async function productPage({
           {product.ingredients?.length > 0 && (
             <>
               <h3 className="text-xl font-semibold">Ingredients</h3>
-
               <ul className="space-y-1 text-white/70">
-                {product.ingredients.map((e, i) => (
+                {product.ingredients.map((e: string, i: number) => (
                   <li key={i}>{e}</li>
                 ))}
               </ul>
@@ -175,9 +170,9 @@ export default async function productPage({
 
           <h3 className="text-xl font-semibold">Why {product.name}?</h3>
 
-          <p className="text-white/80">{product.longDescription.intro}</p>
+          <p className="text-white/80">{product.longDescription?.intro}</p>
 
-          {product.longDescription.sections?.map((e, i) => (
+          {product.longDescription?.sections?.map((e, i: number) => (
             <div key={i}>
               <h4 className="font-semibold text-green-400">{e.title}</h4>
               <p className="text-white/70">{e.content}</p>
@@ -185,7 +180,7 @@ export default async function productPage({
           ))}
 
           <p className="italic text-white/60">
-            {product.longDescription.conclusion}
+            {product.longDescription?.conclusion}
           </p>
         </div>
 
@@ -200,13 +195,12 @@ export default async function productPage({
                 <th>30g</th>
               </tr>
             </thead>
-
             <tbody>
-              {nutKeys.map((e, i) => (
+              {nutKeys.map((e, i: number) => (
                 <tr key={i} className="border-b border-white/5">
                   <td className="py-2">{e.toUpperCase()}</td>
-                  <td>{product.nutritionFacts[e]}</td>
-                  <td>{product.nutritionFacts[e]}</td>
+                  <td>{product.nutritionFacts?.[e]}</td>
+                  <td>{product.nutritionFacts?.[e]}</td>
                 </tr>
               ))}
             </tbody>
