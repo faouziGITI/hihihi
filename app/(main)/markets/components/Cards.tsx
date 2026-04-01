@@ -28,10 +28,11 @@ export default function Cards({ product }: { product: product }) {
     <div className="group w-full h-full flex flex-col rounded-xl p-2 bg-white/5 backdrop-blur-md border border-white/10 shadow-lg shadow-black/40 transition-all duration-300 hover:border-green-400/40 hover:shadow-green-500/20">
       <div className="overflow-hidden rounded-lg">
         <Image
-          src={TempoPic}
+          src={product.image ?? TempoPic}
           alt="productpng"
           quality={90}
-          placeholder="blur"
+          width={400}
+          height={400}
           className="aspect-square w-full object-cover transition-transform duration-300 group-hover:scale-105"
         />
       </div>
@@ -45,7 +46,7 @@ export default function Cards({ product }: { product: product }) {
           <span className="text-white/60">Stock: {product.stock}</span>
         </div>
 
-        <Link href={`/product/${product._id}`}>
+        <Link href={`/product/${product.id}`}>
           <h1
             title={product.name}
             className="text-lg font-semibold text-white leading-tight hover:text-green-400 transition-colors"

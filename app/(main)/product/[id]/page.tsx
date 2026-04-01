@@ -14,10 +14,15 @@ export default async function productPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;
-
-  const res = await fetch(`http://localhost:5000/api/products/${id}`, {
+  //JSON file fetch dont forget to do json-server --w -port 5000 ./data/market.json
+  // make sure the port is 5000 so it can run as expected
+  const res = await fetch(`http://localhost:5000/products/${id}`, {
     cache: "no-store",
   });
+
+  // const res = await fetch(`http://localhost:5000/api/products/${id}`, {
+  //   cache: "no-store",
+  // });
   const product: ProductById = await res.json();
 
   const item: item = {
@@ -29,7 +34,7 @@ export default async function productPage({
   };
 
   const nutKeys = Object.keys(
-    product.nutritionFacts ?? {}
+    product.nutritionFacts ?? {},
   ) as (keyof NutritionFacts)[];
 
   const goals = JsonDumm.goals.filter((e) =>
@@ -88,9 +93,11 @@ export default async function productPage({
                 ))
               ) : product.rating ? (
                 <>
-                  {[...Array(Math.max(0, Math.floor(product.rating)))].map((_, i) => (
-                    <Star key={i} size={15} color="yellow" fill="yellow" />
-                  ))}
+                  {[...Array(Math.max(0, Math.floor(product.rating)))].map(
+                    (_, i) => (
+                      <Star key={i} size={15} color="yellow" fill="yellow" />
+                    ),
+                  )}
                   <StarHalf size={15} color="yellow" fill="yellow" />
                 </>
               ) : null}
