@@ -9,9 +9,17 @@ export default async function Markets({
 }: {
   searchParams: Promise<searchparam>;
 }) {
-  const res = await fetch("http://localhost:5000/api/products", {
+  //JSON file fetch dont forget to do json-server --w -port 5000 ./data/market.json
+  // make sure the port is 5000 so it can run as expected
+  const res = await fetch("http://localhost:5000/products", {
     cache: "no-store",
   });
+
+  //BACkEND FETCH
+
+  // const res = await fetch(`http://localhost:5000/api/products/${id}`, {
+  //   cache: "no-store",
+  // });
   const products: products = await res.json();
   const { query, category, minprice, maxprice } = await searchParams;
 
